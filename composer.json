@@ -1,0 +1,27 @@
+{
+  "name": "kduma/polish-validator",
+  "description": "polish Validation rules for Laravel 5 Validator",
+  "keywords": ["laravel", "polish", "validation", "pesel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krystian Duma",
+      "email": "git@kduma.tk"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/console": "5.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "KDuma\\Validator\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
