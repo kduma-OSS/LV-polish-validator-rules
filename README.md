@@ -1,10 +1,10 @@
-# L5-polish-verify-rules
+# L5-polish-validator-rules
 polish Validation rules for Laravel 5 Validator
 
 # Setup
 Add the package to the require section of your composer.json and run `composer update`
 
-    "kduma/polish-validation": "~1.0"
+    "kduma/polish-validator": "~1.0"
 
 Then add the Service Provider to the providers array in `config/app.php`:
 
@@ -30,4 +30,4 @@ A special thanks to authors of [phpedia.pl](http://phpedia.pl/wiki/Walidacja_num
 and [Mariusz Tomaszewski (on algorytm.org)](http://www.algorytm.org/numery-identyfikacyjne/numer-dowodu-osobistego/do-php.html) who wrote original identity card checker.
 
 # Packagist
-View this package on Packagist.org: [kduma/polish-validation](https://packagist.org/packages/kduma/polish-validation)
+View this package on Packagist.org: [kduma/polish-validator](https://packagist.org/packages/kduma/polish-validator)
