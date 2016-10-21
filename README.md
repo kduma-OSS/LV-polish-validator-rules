@@ -4,6 +4,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/kduma/polish-validator/v/unstable.svg)](https://packagist.org/packages/kduma/polish-validator) 
 [![License](https://poser.pugx.org/kduma/polish-validator/license.svg)](https://packagist.org/packages/kduma/polish-validator)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/5c50eb82-cd75-4c17-8f7d-847233c8dd5f/mini.png)](https://insight.sensiolabs.com/projects/5c50eb82-cd75-4c17-8f7d-847233c8dd5f)
+[![StyleCI](https://styleci.io/repos/30126494/shield?branch=master)](https://styleci.io/repos/30126494)
 
 polish Validation rules for Laravel 5.X Validator
 
