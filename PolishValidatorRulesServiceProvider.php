@@ -15,6 +15,8 @@ class PolishValidatorRulesServiceProvider extends ServiceProvider
     {
         \Validator::extend('pesel', PeselNumberRule::class.'@passes');
         \Validator::extend('identity_card', PolishIdentityCardNumberRule::class.'@passes');
+
+        $this->loadTranslationsFrom(__DIR__ . '/translations', 'kd-validator');
     }
 
     /**
