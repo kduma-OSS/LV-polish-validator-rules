@@ -41,6 +41,8 @@ class PolishIdentityCardNumberRule implements Rule
 
     public function message()
     {
-        return trans('validation.identity_card');
+        return trans('validation.identity_card') != 'validation.identity_card'
+            ? trans('validation.identity_card')
+            : trans('kd-validator::validation.identity_card');
     }
 }

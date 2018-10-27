@@ -28,6 +28,8 @@ class PeselNumberRule implements Rule
 
     public function message()
     {
-        return trans('validation.pesel');
+        return trans('validation.pesel') != 'validation.pesel'
+            ? trans('validation.pesel')
+            : trans('kd-validator::validation.pesel');
     }
 }
