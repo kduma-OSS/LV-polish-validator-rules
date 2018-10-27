@@ -18,5 +18,12 @@
       "KDuma\\Validator\\": ""
     }
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "KDuma\\Validator\\PolishValidatorRulesServiceProvider"
+      ]
+    }
+  },
   "minimum-stability": "dev"
 }
