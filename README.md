@@ -9,11 +9,14 @@
 polish Validation rules for Laravel 5.X Validator
 
 # Setup
-Add the package to the require section of your composer.json and run `composer update`
 
-    "kduma/polish-validator": "^1.1"
+You can install the package via composer:
 
-Then add the Service Provider to the providers array in `config/app.php`:
+    composer require kduma/polish-validator
+
+If you are using Laravel 5.5, the service provider will automatically be discovered. 
+
+On earlier versions, you need to do that manually. You must add the Service Provider to the providers array in `config/app.php`:
 
     KDuma\Validator\PolishValidatorRulesServiceProvider::class,
 
@@ -21,14 +24,8 @@ Then add the Service Provider to the providers array in `config/app.php`:
 # Usage
 You have 2 new Validator rules:
 
-- pesel - Checks if number is valid PESEL number
-- identity_card - Checks if number is polish identity document number
-
-# Translations
-Use ready polish translations to paste in `resources/lang/pl/validation.php` file:
-
-	"pesel" => 'Podany numer PESEL jest nieprawidłowy',
-	"identity_card" => 'Podany numer dowodu osobistego jest nieprawidłowy',
+- `pesel` or `\KDuma\Validator\PeselNumberRule()` - Checks if number is valid PESEL number
+- `identity_card` or `\KDuma\Validator\PolishIdentityCardNumberRule()` - Checks if number is polish identity document number
 	
 
 # Code Authors
