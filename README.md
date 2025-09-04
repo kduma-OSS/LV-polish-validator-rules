@@ -8,6 +8,8 @@
 
 polish Validation rules for Laravel 5.X Validator
 
+Check full documentation here: [opensource.duma.sh/libraries/php/laravel-polish-validator](https://opensource.duma.sh/libraries/php/laravel-polish-validator)
+
 # Setup
 
 You can install the package via composer:
