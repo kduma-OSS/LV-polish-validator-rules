@@ -1,3 +1,13 @@
+# Package EOL
+
+> **This package is deprecated and no longer maintained.**
+>
+> The package was built for Laravel 5.x and uses the legacy `Validator::extend()` API which has been superseded by the modern `ValidationRule` interface. It has not been updated to support Laravel 11+ and is incompatible with Laravel 13 (which requires PHP 8.3+).
+>
+> If you need PESEL or Polish identity card validation, consider implementing custom rules using Laravel's [`ValidationRule`](https://laravel.com/docs/validation#custom-validation-rules) interface — the validation logic from this package can be easily extracted into standalone rule classes.
+
+---
+
 # L5-polish-validator-rules
 [![Latest Stable Version](https://poser.pugx.org/kduma/polish-validator/v/stable.svg)](https://packagist.org/packages/kduma/polish-validator) 
 [![Total Downloads](https://poser.pugx.org/kduma/polish-validator/downloads.svg)](https://packagist.org/packages/kduma/polish-validator) 
@@ -8,7 +18,7 @@
 
 polish Validation rules for Laravel 5.X Validator
 
-Check full documentation here: [opensource.duma.sh/libraries/php/laravel-polish-validator](https://opensource.duma.sh/libraries/php/laravel-polish-validator)
+Check full documentation here: [opensource.duma.sh/libraries/deprecated/laravel-polish-validator](https://opensource.duma.sh/libraries/deprecated/laravel-polish-validator)
 
 # Setup
 
